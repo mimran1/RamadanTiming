@@ -1,1 +1,1 @@
-SELECT TOP (2) * FROM [RamadanTiming].[dbo].[PRINT]
+SELECT TOP (5) * FROM [RamadanTiming].[dbo].[PRINT]
