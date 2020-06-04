@@ -4,15 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SampleComponent } from './components/sample/sample.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { TopnavComponent } from './topnav/topnav.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SampleComponent
+    SampleComponent,
+    SidenavComponent,
+    DashboardComponent,
+    TopnavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
