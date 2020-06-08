@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SampleComponent } from './components/sample/sample.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { TopnavComponent } from './topnav/topnav.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TopnavComponent } from './components/topnav/topnav.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
